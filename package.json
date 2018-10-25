@@ -1,0 +1,24 @@
+{
+  "name": "adaptive-hw",
+  "version": "1.0.0",
+  "description": "Ссылка на GitHub Pages – https://dalv96.github.io/adaptive-hw/index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalv96/adaptive-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalv96/adaptive-hw/issues"
+  },
+  "homepage": "https://github.com/dalv96/adaptive-hw#readme",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
