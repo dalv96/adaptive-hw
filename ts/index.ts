@@ -83,7 +83,6 @@ function controlScrollbar(picture: HTMLElement, scrollbar: HTMLInputElement) {
 	}
 
 	const scroll = current.x + maxScrollX;
-	console.log(scroll);
 
 	scrollbar.value = `${100 - (scroll * 100) / (maxScrollX * 2)}`;
 }
@@ -180,9 +179,9 @@ function initVolume(): void {
 
 function initPicture() {
 	const picture = qs('.active__picture');
- const zoom = qs('#zoom');
- const bright = qs('#bright');
- const scrollbar: HTMLInputElement | null  = qs('#scrollbar');
+	const zoom = qs('#zoom');
+	const bright = qs('#bright');
+	const scrollbar: HTMLInputElement | null  = qs('#scrollbar');
 
 	if (picture) {
 
