@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/music.css"/>
     <link rel="stylesheet" href="css/scroll-bar.css"/>
     <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <!-- <script src="js/helper.js"></script> -->
     <script src="js/index.js"></script>
     <title>Яндекс Дом</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
@@ -229,7 +231,7 @@
                       <img class="next" src="images/icons/Prev.svg" alt="">
                     </div>
                     <div class="music__volume">
-                      <input type="range" oninput="changeVolume(this.value)" min="0" max="100" value="80">
+                      <input type="range" min="0" max="100" value="80">
                       <div class="music__value">80%</div>
                     </div>
                   </div>
